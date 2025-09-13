@@ -10,8 +10,8 @@ export function loginUser(email, password) {
 }
 
 async function authenticate(mode, userEmail, userPassword) {
-  const url =
-    "https://identitytoolkit.googleapis.com/v1/accounts:" +
+  const url = <Firebase realtime database link>
+    +
     mode +
     "?key=" +
     API_KEY;
