@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "AIzaSyAbaW-ALbhJq_muIU3_34nEryxYunksQG4";
+const API_KEY = <User Firebase webApi Key>
 
 export function createUser(email, password) {
   return authenticate("signUp", email, password);
